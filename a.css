@@ -1,0 +1,95 @@
+* { 
+    box-sizing: border-box;
+
+}
+body{
+     margin :0px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+   
+header h1{
+    text-align: center;
+    font-size: 40px;
+    color:blueviolet;
+}
+header {
+    background-image: url('head.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 40px;
+    background-color:darkturquoise;
+}
+nav{
+    background-color: deepskyblue;
+    overflow: hidden;
+}
+nav a{
+    text-decoration: none;
+    padding : 20px;
+    text-align: center;
+    float : left;
+    color :darkred;
+}
+main {
+    background-image: url('download.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+
+    background-color: rgb(64, 56, 177);
+    text-align: center;
+    
+}
+a:hover{
+    background-color: forestgreen;
+}
+table{
+    width:30%;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    overflow: hidden;
+}
+th{
+    background-color: rgb(235, 123, 179);
+    column-span: 2;
+}
+th ,td {
+    padding: 15px;
+    text-align: center;
+
+}
+table ,th ,td {
+    border: 1px solid green;
+}
+
+td {
+
+background-color: lavender;
+}
+h1{
+    text-align: center;
+    padding : 10px:
+    
+}
+section{
+    min-height: 100vh;
+    text-align: centre;
+}
+img{
+    height: 200px;
+    width: 100px:
+    padding: 10px;
+    border-radius:50%
+}
+footer {
+    background-color: darkblue;
+    overflow: hidden;
+}
+footer a{
+     text-decoration: none;
+     padding : 20px;
+     text-align: center;
+     float :left;
+     color:darkgrey;
+}
