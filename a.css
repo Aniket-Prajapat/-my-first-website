@@ -2,6 +2,9 @@
     box-sizing: border-box;
 
 }
+title{
+    text-align: center;
+}
 body{
      margin :0px;
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -17,12 +20,11 @@ header {
     background-image: url('head.jpg') ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 40px;
+    padding: 20px;
     background-color:darkturquoise;
 }
 nav{
-    background-image: url('img6.jpg');
-    background-repeat: no-repeat;
+
     background-size: 100% 100%;
     background-color: deepskyblue;
     overflow: hidden;
@@ -35,7 +37,7 @@ nav a{
     color :darkred;
 }
 main {
-    background-image: url('download.jpg') ;
+    background-image: url('img9.jpg') ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
    
@@ -47,9 +49,12 @@ main {
 a:hover{
     background-color : yellow;
 }
-table{ 
-    background-image: url('img 1.jpg') ;
-    width:30%;
+table{  
+    margin-left: auto;
+    margin-right: auto; 
+     align-items: center;
+    width: 90%;
+    height : 20%
     border-collapse: collapse;
     border-spacing: 5px;
 }
