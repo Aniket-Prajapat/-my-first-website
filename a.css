@@ -21,6 +21,9 @@ header {
     background-color:darkturquoise;
 }
 nav{
+    background-image: url('img6.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-color: deepskyblue;
     overflow: hidden;
 }
@@ -42,9 +45,10 @@ main {
     
 }
 a:hover{
-    background-color: forestgreen;
+    background-color : yellow;
 }
-table{
+table{ 
+    background-image: url('img 1.jpg') ;
     width:30%;
     border-collapse: collapse;
     border-spacing: 5px;
@@ -63,7 +67,6 @@ table ,th ,td {
 }
 
 td {
-
 background-color: lavender;
 }
 h1{
@@ -75,13 +78,14 @@ section{
     min-height: 100vh;
     text-align: centre;
 }
-img{
-    height: 200px;
-    width: 100px;
+img{ background-image: url('img 1.jpg');
+    height: 300px;
+    width: 300px;
     padding: 10px;
     border-radius:50%
 }
-footer {
+footer { 
+    text-align: center;
     background-color: darkblue;
     overflow: hidden;
 }
